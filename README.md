@@ -29,9 +29,15 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+      Proptypes help safegaurd our data. They ensure the right type of data is passed around and also used for debugging.
 - [ ] Describe a life-cycle event in React?
+      How components operate under the hood. There are three phases, mounting, updating, an un-mounting.
+
 - [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+HOC takes in a component as an argument and returns a new component. Allows developers to reuse component logic.
+
+- [ ] What are three different ways to style components in React? Explain some of the benefits of each. 1. CSS - plain ole' vanilla css- probably something that a developer will be very familiar with, ease of use, allows for separate css files which might keep things more organized if thats the dev's particular style. 2. Reactstrap - utilizes Bootstrap's great library but makes the syntax react friendly, making it easier to use and read than regular Bootstrap. 3. Styled Components - Allows devs to use css writing javascript, cleans up code a bit by making components less bulky.
 
 ## Project Setup
 
